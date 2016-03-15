@@ -14,7 +14,6 @@
 //= require bootstrap-sprockets
 //= require jquery_ujs
 //= require turbolinks
-//= require font-awesome
 //= require jquery-2.1.3.min
 //= require jquery.mb.YTPlayer.min
 //= require appear
