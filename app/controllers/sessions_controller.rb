@@ -1,5 +1,5 @@
 class SessionsController < ApplicationController
-  # skip_before_action :authorize
+  skip_before_action :authorize
   def new
     @user = User.new
   end
@@ -20,7 +20,7 @@ class SessionsController < ApplicationController
         end
       end
     end
-  end
+  
 
 
   def destroy
