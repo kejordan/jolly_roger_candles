@@ -1,19 +1,13 @@
 source 'https://rubygems.org'
 ruby "2.3.0"
-
+#Bootstrap and Fonts
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'font-awesome-rails'
 gem 'font-awesome-sass'
 gem 'ionicons-rails'
-gem 'omniauth-facebook'
 gem 'dotenv-rails', :groups => [:development, :test]
 gem 'breakpoint'
 
-gem 'twilio-ruby'
-gem 'phony_rails'
-
-gem 'puma'
-gem 'sidekiq'
 
 gem "open_uri_redirections"
 gem 'pry'
